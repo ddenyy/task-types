@@ -10,7 +10,7 @@ type TPersone = {
     age: number;
     gender: 'male' | 'female';
 };
-export function getPersons(): Persone[];
+export function getPersons(): TPersone[];
 
 /*
 Типизируйте функцию personToString, возвращающую строку и принимающую объект одного из следующих форматов:
